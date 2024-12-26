@@ -1,23 +1,22 @@
 /** @type {import('tailwindcss').Config} */
+
+import tailwindScrollbar from "tailwind-scrollbar";
+
 export default {
   darkMode: "class",
-  content: [
-    "./index.html", 
-    "./src/**/*.{js,jsx,ts,tsx}",
-  ],
+  content: ["./index.html", "./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
       fontFamily: {
-        poppins: ['Poppins','Arial', 'sans-serif'],
-        dmSans: ['DM Sans', 'Arial', 'sans-serif']
-      }
+        dmSans: ["DM Sans", "Arial", "sans-serif"],
+      },
       colors: {
         solidHeadingLight: "#42446E",
-        darkContet: "#666666",
         solidHeadingDark: "#CCCCCC",
         contentLight: "#A7A7A7",
+        contentDark: "#666666",
         buttonText: "#018C0F",
-        ButtonSuccess: "#D7FFE0"
+        ButtonSuccess: "#D7FFE0",
         darkMode: "#191919",
         lightMode: "#fff",
       },
@@ -26,11 +25,9 @@ export default {
         lightMode: "#fff",
       },
       backgroundImage: {
-        'custom-gradient': 'linear-gradient(90deg, #13B0F5 3%, #E70FAA 100%)',
+        "custom-gradient": "linear-gradient(90deg, #13B0F5 3%, #E70FAA 100%)",
       },
     },
   },
-  plugins: [],
-}
-
-
+  plugins: [ tailwindScrollbar],
+};
