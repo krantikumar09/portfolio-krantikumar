@@ -19,7 +19,7 @@ const About = () => {
   ];
 
   return (
-    <section className="mt-32" id="about">
+    <section className="mt-32 scroll-mt-24" id="about">
       <SectionHeading
         heading="About Me"
         subHeading="Technologies I’ve been working with recently"

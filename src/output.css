@@ -1737,6 +1737,10 @@ html{
   margin-top: 80px;
 }
 
+.mb-32{
+  margin-bottom: 8rem;
+}
+
 .line-clamp-4{
   overflow: hidden;
   display: -webkit-box;
@@ -1810,6 +1814,38 @@ html{
 
 .cursor-pointer{
   cursor: pointer;
+}
+
+.scroll-mt-20{
+  scroll-margin-top: 5rem;
+}
+
+.scroll-mt-24{
+  scroll-margin-top: 6rem;
+}
+
+.scroll-mt-\[80px\]{
+  scroll-margin-top: 80px;
+}
+
+.scroll-mt-\[100px\]{
+  scroll-margin-top: 100px;
+}
+
+.scroll-mt-\[140px\]{
+  scroll-margin-top: 140px;
+}
+
+.scroll-mt-\[50px\]{
+  scroll-margin-top: 50px;
+}
+
+.scroll-mt-\[200px\]{
+  scroll-margin-top: 200px;
+}
+
+.scroll-mt-32{
+  scroll-margin-top: 8rem;
 }
 
 .grid-cols-1{

@@ -4,7 +4,7 @@ import { PrimaryButton, OutlineButton } from "./Button";
 
 const Hero = () => {
   return (
-    <section className="hero mt-[80px] h-[90vh] flex items-center justify-center">
+    <section className="hero mt-[80px] h-[90vh] flex items-center justify-center scroll-mt-[200px]">
       <div className="text-center">
         <h1 className="heading1 heading">
           Hi 👋, <br />
@@ -12,10 +12,10 @@ const Hero = () => {
           <span className="bg-custom-gradient">Krantikumar Mathapati</span>
         </h1>
         
-        <p className="sub-heading">Full Stack Web Developer Based in Pune</p>
+        <p className="sub-heading">Frontend Web Developer Based in Pune</p>
 
         <div className="mt-12 flex items-center justify-center gap-[10px]">
-          <PrimaryButton label="Download CV" icon={faDownload} />
+          <PrimaryButton href="../../public/My_Resume.pdf" label="Download CV" icon={faDownload} download="krantikuarm's_cv.pdf"/>
 
           <OutlineButton href="#about" label="Scroll Down" icon={faArrowDown} />
         </div>

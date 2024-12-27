@@ -3,7 +3,7 @@ import SectionHeading from "./SectionHeading";
 
 const TechStack = () => {
   return (
-    <section id="techStack" className="mt-32">
+    <section id="techStack" className="mt-32 scroll-mt-32">
       <SectionHeading heading="Tech Stack" subHeading=" Technologies I’ve been working with recently"/>
 
       <div className="grid grid-cols-3 sm:grid-cols-6 justify-items-center gap-6 mt-16 reveal-up">

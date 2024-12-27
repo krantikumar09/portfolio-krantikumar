@@ -1,11 +1,11 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import PropTypes from "prop-types";
 
-const PrimaryButton = ({ href, target= "_self", label, icon, classes }) => {
+const PrimaryButton = ({ href, target="_self", label, icon, classes, download }) => {
   if (href) {
     return (
       <button className={"btn primary-btn " + classes}>
-        <a href={href} target={target}>
+        <a href={href} target={target} download={download}>
           {label} {icon ? <FontAwesomeIcon icon={icon} /> : undefined}
         </a>
       </button>
