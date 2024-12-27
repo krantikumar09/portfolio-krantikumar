@@ -26,7 +26,7 @@ const About = () => {
       />
 
       <div className="mt-16">
-        <div className="max-w-2xl w-full mx-auto">
+        <div className="max-w-2xl w-full mx-auto reveal-up">
           <p className="body-text mb-4">
             I create unique digital experiences tailored to your brand and
             goals. By merging creativity with functionality and staying ahead of

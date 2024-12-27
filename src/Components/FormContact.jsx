@@ -2,7 +2,7 @@ import { PrimaryButton } from "./Button";
 
 const FormContact = () => {
   return (
-    <form className="mt-14">
+    <form className="mt-14 reveal-up">
         <div className=" max-w-xl w-full mx-auto">
           <div className="flex flex-col sm:flex-row items-center gap-2 mb-4">
             <label className="form-control w-full max-w-xs">

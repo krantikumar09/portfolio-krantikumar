@@ -1685,6 +1685,10 @@ html{
   margin-right: auto;
 }
 
+.mb-2{
+  margin-bottom: 0.5rem;
+}
+
 .mb-4{
   margin-bottom: 1rem;
 }
@@ -1731,10 +1735,6 @@ html{
 
 .mt-\[80px\]{
   margin-top: 80px;
-}
-
-.mb-2{
-  margin-bottom: 0.5rem;
 }
 
 .line-clamp-4{
@@ -2418,6 +2418,12 @@ body:is(class *){
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
+}
+
+.reveal-up{
+  --tw-translate-y: 5rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  opacity: 0;
 }
 
 .custom-flex{

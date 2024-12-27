@@ -177,6 +177,10 @@ body {
   @apply mx-auto px-4 md:px-6;
 }
 
+.reveal-up {
+  @apply translate-y-20 opacity-0;
+}
+
 .custom-flex {
   @apply flex items-center justify-between gap-3;
 }

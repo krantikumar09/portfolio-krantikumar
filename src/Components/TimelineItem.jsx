@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 const TimelineItem = ({ title, place, duration, type }) => {
 
   return (
-    <div  className='mb-6 pb-2 border-b border-gray-200'>
+    <div  className='mb-6 pb-2 border-b border-gray-200 reveal-up'>
         <div className='flex flex-items-center justify-between gap-2 mb-2'>
             <h4 className='heading4'>{title}</h4>
             <span className="badge">{type}</span>
