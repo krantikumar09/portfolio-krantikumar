@@ -39,7 +39,7 @@ const Navbar = ({ navOpen }) => {
     },
     {
       label: "Tech Stack",
-      link: "#teckStack",
+      link: "#techStack",
       className: "nav-link",
     },
     {
@@ -55,7 +55,7 @@ const Navbar = ({ navOpen }) => {
   ];
 
   return (
-    <nav className={"navbar " + (navOpen ? "active" : "")}>
+    <nav className={"custom-navbar " + (navOpen ? "active" : "")}>
       {navItems.map(({ label, link, className, ref }, key) => (
         <a href={link} key={key} ref={ref} onClick={activeCurrentLink} className={className}>
           {label}
