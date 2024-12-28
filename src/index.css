@@ -177,8 +177,14 @@ body {
   @apply mx-auto px-4 md:px-6;
 }
 
+header {
+  background: rgba( 255, 255, 255, 0.05 );
+backdrop-filter: blur( 8px );
+-webkit-backdrop-filter: blur( 8px );
+}
+
 .reveal-up {
-  @apply translate-y-20 opacity-0;
+  @apply translate-y-25 opacity-0;
 }
 
 .custom-flex {
@@ -186,7 +192,7 @@ body {
 }
 
 .badge {
-  @apply px-4 text-accent text-[8px] sm:text-xs font-medium bg-accent/20;
+  @apply px-2 md:px-4 text-accent text-[8px] sm:text-xs font-medium bg-accent/20;
 }
 
 .menu-btn {
@@ -250,5 +256,5 @@ input, textarea {
 }
 
 .theme-toggle-btn {
-  @apply p-2 rounded-l-md shadow-xl fixed bottom-[5.5%] right-0 px-6 backdrop-blur-md opacity-55con;
+  @apply p-2 rounded-l-md shadow-xl fixed bottom-[5.5%] right-0 px-6 backdrop-blur-md opacity-55;
 }

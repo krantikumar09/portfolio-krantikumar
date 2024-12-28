@@ -21,8 +21,8 @@ function App() {
       gsap.to(element, {
         scrollTrigger: {
           trigger: element,
-          start: "-160 bottom",
-          end: "bottom 80%",
+          start: "-200 bottom",
+          end: "bottom 85%",
           scrub: true,
         },
         y: 0,

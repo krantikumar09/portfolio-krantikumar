@@ -4,27 +4,27 @@ const FormContact = () => {
   return (
     <form className="mt-14">
         <div className=" max-w-xl w-full mx-auto">
-          <div className="flex flex-col sm:flex-row items-center gap-2 mb-2">
-            <label className="form-control w-full max-w-xs reveal-up">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 mb-2">
+            <label className="form-control w-full reveal-up">
               <div className="label">
                 <span className="label-text">Name</span>
               </div>
               <input
                 type="text"
                 placeholder="John Doe"
-                className="input input-bordered w-full max-w-xs"
+                className="input input-bordered w-full"
                 required
               />
             </label>
 
-            <label className="form-control w-full max-w-xs  reveal-up">
+            <label className="form-control w-full reveal-up">
               <div className="label">
                 <span className="label-text">Email</span>
               </div>
               <input
                 type="text"
                 placeholder="john@gmail.comm"
-                className="input input-bordered w-full max-w-xs"
+                className="input input-bordered w-full"
                 required
               />
             </label>

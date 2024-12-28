@@ -7,7 +7,7 @@ import { faTwitter } from "@fortawesome/free-brands-svg-icons/faTwitter";
 const Footer = () => {
   const socialLinks = [
     {
-      link: "https://github.com/krantikuar09",
+      link: "https://github.com/krantikumar09",
       icon: faGithub,
     },
     {
