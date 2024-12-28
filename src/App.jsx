@@ -7,42 +7,38 @@ import Footer from "./Components/Footer";
 import { ReactLenis } from "lenis/react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { useGSAP } from '@gsap/react';
-import ThemeToggle from "/src/Components/ThemeToggle"
+import { useGSAP } from "@gsap/react";
+import ThemeToggle from "/src/Components/ThemeToggle";
 
 // register gsap
 gsap.registerPlugin(useGSAP, ScrollTrigger);
 
 function App() {
-
   useGSAP(() => {
-    const elements = gsap.utils.toArray('.reveal-up');
-    
+    const elements = gsap.utils.toArray(".reveal-up");
+
     elements.forEach((element) => {
       gsap.to(element, {
         scrollTrigger: {
           trigger: element,
-          start: '-160 bottom',
-          end: 'bottom 80%',
+          start: "-160 bottom",
+          end: "bottom 80%",
           scrub: true,
         },
         y: 0,
         opacity: 1,
         duration: 1,
-        ease: 'power2.out'
-      })
-    })
-  })
+        ease: "power2.out",
+      });
+    });
+  });
 
   return (
     <ReactLenis root>
       <Header />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-      </Routes>
-      <Footer/>
-      <ThemeToggle/>
+      <Home />
+      <Footer />
+      <ThemeToggle />
     </ReactLenis>
   );
 }
