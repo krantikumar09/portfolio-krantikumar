@@ -4,7 +4,8 @@
 import tailwindScrollbar from "tailwind-scrollbar";
 
 export default {
-  darkMode: ["class", "class"],
+  // darkMode: ["class", "class"],
+  darkMode: 'class',
   content: ["./index.html", "./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {

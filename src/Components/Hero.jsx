@@ -4,7 +4,7 @@ import { PrimaryButton, OutlineButton } from "./Button";
 
 const Hero = () => {
   return (
-    <section className="hero mt-[80px] h-[90vh] flex items-center justify-center scroll-mt-[200px]">
+    <section className="hero  h-screen flex items-center justify-center scroll-mt-[200px]">
       <div className="text-center">
         <h1 className="heading1 heading">
           Hi 👋, <br />

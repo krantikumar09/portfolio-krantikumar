@@ -1,5 +1,7 @@
-import { useContext } from "react";
-import ThemeContext from "../Context/ThemeContext";
+import React, { useContext } from "react";
+import { ThemeContext } from "../Context/ThemeContext";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faMoon, faSun } from "@fortawesome/free-regular-svg-icons";
 
 const ThemeToggle = () => {
   const { theme, toggleTheme } = useContext(ThemeContext);
@@ -7,9 +9,11 @@ const ThemeToggle = () => {
   return (
     <button
       onClick={toggleTheme}
-      className="p-2 bg-slate-50 text-black rounded-md"
+      className={`theme-toggle-btn  ${
+        theme === "light" ? "bg-card-light text-text-primary-light" : "bg-card-dark text-text-primary-dark"
+      }`}
     >
-      {theme === "light" ? "Switch to dark mode" : "Switch to light mode"}
+      {theme === "light" ? <FontAwesomeIcon icon={faMoon}/> : <FontAwesomeIcon icon={faSun}/>}
     </button>
   );
 };

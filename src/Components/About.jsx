@@ -34,7 +34,7 @@ const About = () => {
             also performs flawlessly.
           </p>
 
-          <h3 className="heading3 heading mt-8 mb-4">Education</h3>
+          <h3 className="heading3 heading mt-8 mb-4 reveal-up">Education</h3>
 
           {eduction.map((item, index) => (
             <TimelineItem

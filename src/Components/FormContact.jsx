@@ -2,10 +2,10 @@ import { PrimaryButton } from "./Button";
 
 const FormContact = () => {
   return (
-    <form className="mt-14 reveal-up">
+    <form className="mt-14">
         <div className=" max-w-xl w-full mx-auto">
-          <div className="flex flex-col sm:flex-row items-center gap-2 mb-4">
-            <label className="form-control w-full max-w-xs">
+          <div className="flex flex-col sm:flex-row items-center gap-2 mb-2">
+            <label className="form-control w-full max-w-xs reveal-up">
               <div className="label">
                 <span className="label-text">Name</span>
               </div>
@@ -17,7 +17,7 @@ const FormContact = () => {
               />
             </label>
 
-            <label className="form-control w-full max-w-xs">
+            <label className="form-control w-full max-w-xs  reveal-up">
               <div className="label">
                 <span className="label-text">Email</span>
               </div>
@@ -30,7 +30,7 @@ const FormContact = () => {
             </label>
           </div>
 
-          <label className="form-control w-full">
+          <label className="form-control w-full  reveal-up">
             <div className="label">
               <span className="label-text">Message</span>
             </div>

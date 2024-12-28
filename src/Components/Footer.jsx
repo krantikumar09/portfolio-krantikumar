@@ -70,7 +70,7 @@ const Footer = () => {
         </div>
       </section>
 
-      <div className="divider"></div>
+      <hr className="my-4 bg-red-900"/>
 
       <section className="footer-rows flex-col sm:flex-row">
         <ul className="footer-nav-link-row">

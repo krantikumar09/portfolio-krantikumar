@@ -12,6 +12,8 @@ import bootstrap_logo from "./logos_bootstrap.svg";
 import git_logo from "./logos_git-icon.svg";
 import vs_logo from "./vscode-icons_file-type-vscode.svg";
 import github_log from "./akar-icons_github-fill.svg";
+import github_white_logo from "./github_white_logo.svg";
+import express_white_logo from "./express_white_logo.svg";
 
 export const assets = {
   logo,
@@ -19,18 +21,54 @@ export const assets = {
 };
 
 export const techStack = [
-  html_logo,
-  css_logo,
-  js_logo,
-  react_logo,
-  node_logo,
-  express_logo,
-  mongo_logo,
-  tailwind_log,
-  bootstrap_logo,
-  git_logo,
-  vs_logo,
-  github_log,
+  {
+    light: html_logo,
+    dark: html_logo
+  },
+  {
+    light: css_logo,
+    dark: css_logo
+  },
+  {
+    light: js_logo,
+    dark: js_logo
+  },
+  {
+    light: react_logo,
+    dark: react_logo,
+  },
+  {
+    light: node_logo,
+    dark: node_logo,
+  },
+  {
+    light: express_logo,
+    dark: express_white_logo
+  },
+  {
+    light: mongo_logo,
+    dark: mongo_logo,
+  },
+  {
+    light: tailwind_log,
+    dark: tailwind_log,
+  },
+  {
+    light: bootstrap_logo,
+    dark: bootstrap_logo,
+  },
+  {
+    light: git_logo,
+    dark: git_logo
+  },
+  {
+    light: vs_logo,
+    dark: vs_logo
+  },
+  {
+    light: github_log,
+    dark: github_white_logo
+  }
 ];
 
 export const projecList = [

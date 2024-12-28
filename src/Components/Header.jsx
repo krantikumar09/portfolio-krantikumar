@@ -6,7 +6,7 @@ import { faBars, faClose } from "@fortawesome/free-solid-svg-icons";
 const Header = () => {
   const [navOpen, setNavOpen] = useState(false);
   return (
-    <header className="fixed top-0 left-0 h-20 w-full flex items-center justify-between z-[100]">
+    <header className="fixed top-0 left-0 h-20 w-full flex items-center justify-between z-[100] ">
       <div className="max-w-screen-2 w-full max-auto px-4 flex items-center justify-between">
         <a href="/" className="logo">
           <img src={assets.logo} width={80} alt="logo" />
@@ -18,9 +18,9 @@ const Header = () => {
             onClick={() => setNavOpen((prev) => !prev)}
           >
             {navOpen ? (
-              <FontAwesomeIcon icon={faClose} />
+              <FontAwesomeIcon className="menu-btn-icon" icon={faClose} />
             ) : (
-              <FontAwesomeIcon icon={faBars} />
+              <FontAwesomeIcon className="menu-btn-icon" icon={faBars} />
             )}
           </button>
 
